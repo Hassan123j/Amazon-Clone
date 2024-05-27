@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo>img{
+  height: 35px;
+  margin-top: 12px;
+  /* width: 100px; */
+}
+.border{
+  border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-addres{
+    margin-left: 10px;
+}
+.add1{
+  color: #cccccc;
+  font-size: 0.80rem;
+  margin-left: 14px;
+}
+.add2{
+  font-size: 1rem;
+  margin-left: 2px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-search{
+    display: flex;
+    justify-content:space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 4px;
+}
+.search-select{
+ background-color: #f3f3f3;
+ width: 50px;
+ text-align: center;
+ border-top-left-radius: 4px;
+ border-bottom-left-radius: 4px;
+ border: none;
+}
+.search-inp{
+    width: 100%;
+    font-size: 1rem;
+    /* font-weight: 800; */
+    border: none;
+    justify-content: center;
+    padding-left: 6px;
+}
+.search-icon{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+.flg>img{
+    height: 28px;
+}
+.flg{
+    display: flex;
+    align-items: center;
+}
+.pak{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    /* height: 15px; */
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 3px;
+}
+span{
+    font-size: 0.74rem;
+}
+.nav-sec{
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-cart i{
+    font-size: 38px;
+}
+.nav-cart{
+    font-weight: 600;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 14px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.86rem;
+}
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.hero{
+    background-image: url("a1.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.87rem;
+    width: 80%;
+    margin-bottom: 34px;
+
+}
+.hero-msg a{
+    color: #007185b2;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e4e793;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 337px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #00857ebd ;
+}
+.b1{
+    background-position: center;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+footer{
+    margin-top: 16px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul  a{
+    display: block;
+    font-size: 0.86rem;
+    margin-top: 12px;
+    color: #dddddd;
+    /* height: 70px; */
+}
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 0.4px solid whitesmoke;
+    height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo1 img{
+    background-size: cover;
+    height: 33px;
+    width: 89px;
+}
+.foot-panel4{
+    background-color: #0F1111;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.pages{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
+.copyright{
+font-size: 0.8rem;
+text-align: center;
+padding-top: 20px;
+}
